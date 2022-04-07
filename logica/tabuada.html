@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabuada</title>
+</head>
+
+<body>
+    <script>
+        function pulaLinha() {
+
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+
+            document.write(frase);
+            pulaLinha();
+        }
+
+        for (var mutiplicador = 1; mutiplicador <= 10; mutiplicador++) {
+        
+            mostra(7 * mutiplicador);
+        
+        }
+        mostra("Fim tabu 7");
+
+        let mutiplica = 1;
+
+        while(mutiplica <= 10){
+            mostra(5 * mutiplica);
+            mutiplica = mutiplica + 1;
+        }
+        mostra("Fim tabu 5");
+    </script>
+</body>
+
+</html>
